@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_eglise"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_reunions"
+            android:icon="@drawable/ic_reunion"
+            android:title="Nos réunions" />
+        <item
+            android:id="@+id/nav_venir"
+            android:icon="@drawable/ic_venir"
+            android:title="Venir à l'église" />
+        <item
+            android:id="@+id/nav_annonces"
+            android:icon="@drawable/ic_annonces"
+            android:title="Annonces de l'église" />
+        <item
+            android:id="@+id/nav_evenements"
+            android:icon="@drawable/ic_evenement"
+            android:title="Evènements" />
+    </group>
+
+    <item android:title="Enseignements">
+        <menu>
+            <item
+                android:id="@+id/nav_video"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Messages vidéo" />
+            <item
+                android:id="@+id/nav_audio"
+                android:icon="@drawable/ic_audio"
+                android:title="Messages audio" />
+            <item
+                android:id="@+id/nav_ecrit"
+                android:icon="@drawable/ic_ecrit"
+                android:title="Messages écrits" />
+        </menu>
+    </item>
+
+    <item android:title="Nous contacter">
+        <menu>
+            <item
+                android:id="@+id/nav_appeler"
+                android:icon="@drawable/ic_call"
+                android:title="Nous appeller" />
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/ic_mail"
+                android:title="Nous envoyer un mail" />
+            <item
+                android:id="@+id/nav_site"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Visiter notre site" />
+        </menu>
+    </item>
+
+    <item android:title="Plus d'info">
+        <menu>
+            <item
+                android:id="@+id/nav_youtube"
+                android:icon="@drawable/ic_youtube"
+                android:title="Notre chaine Youtube" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="Notre page Facebook" />
+        </menu>
+    </item>
+
+
+</menu>
